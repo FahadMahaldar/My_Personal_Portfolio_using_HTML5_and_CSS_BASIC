@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+html{
+    color: white;
+    background-color: black;
+}
+
+.navbar, .main, .aboutme, .skills, .project, .contact{
+    border-bottom: 4px solid grey;
+}
+
+.top-header{
+    height: 99vh;
+}
+
+.navbar{
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar h1{
+    color: gold;
+    font-size: 60px ;
+    margin-top: 10px;
+    margin-left: 39px;
+    cursor: pointer;
+}
+
+.nav-item li{
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 37px ;
+    float: left;
+    font-weight: 900;
+}
+
+.nav-item ul{
+    list-style: none;
+}
+
+.nav-item ul :hover{
+    color: gold;
+}
+
+
+.nav-item ul a{
+    color: white;
+    text-decoration: none;
+}
+
+/* HOME */
+
+.main{
+    display: flex;
+}
+
+.main-right{
+    width: 700px;
+    height: 550px;
+}
+
+.main-left{
+    width: 700px;
+}
+
+.myimage{
+    width: 400px;
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: 150px;
+    width: 50%;
+}
+
+.resume-btn{
+    background-color: gold;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left:90px ;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.resume-btn:hover{
+    background-color: rgb(228, 217, 15);
+}
+
+.main-left h1{
+    margin-left: 90px;
+    margin-top: 130px;
+    font-size: 40px;
+}
+
+
+
+/*About me*/
+
+.aboutme{
+    height: 620px;
+}
+
+.aboutme-top{
+    height: 155px;
+    font-size: 70px;
+}
+
+.aboutme-top h1{
+    margin-top:13px ;
+}
+
+.aboutme-top span{
+    color: gold;
+}
+
+.aboutme-cont{
+    display: flex;
+}
+
+.aboutme-left{
+    width: 600px;
+    height: 394px;
+}
+
+.aboutme-right{
+    width: 800px;
+}
+
+.aboutme-right h2, p{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.aboutme-right h2{
+    font-size: 40px;
+    margin-top: 55px;
+}
+
+.aboutme-right p{
+    font-size: 20px;
+}
+
+.aboutme-left img{
+    width: 325px;
+    margin-top: 38px;
+    margin-left:110px;
+}
+
+/* SKILL SECTION */
+
+.skills{
+    height: 590px;
+}
+
+.skills-top{
+    height: 150px;
+    font-size: 70px;
+}
+
+.skills-top span{
+    color: gold;
+}
+
+.skills-cont{
+    background-color: rgb(91, 135, 132);
+    border-radius: 8px;
+    border: 2px solid rgb(95, 95, 95);
+    margin-left: 40%;
+    margin-top: 53px;
+    height: 300px;
+    width: 250px;
+}
+
+.skills-cont h1{
+    margin-left: 5px;
+    text-shadow: 2px 2px #2e2c2c;
+    font-size: 30px;
+    height: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.skills-cont p{
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* project section */
+
+.project{
+    height:800px;
+}
+
+.project-top{
+    text-align: center;
+    height: 150px;
+    font-size: 70px;
+}
+
+.project-top span{
+    color: gold;
+}
+
+.project-top h1{
+    margin-top: 20px;
+}
+
+.my-project{
+    margin-top: 40px;
+    height: 700px;
+}
+
+.project-row1 , .project-row2{
+    display: flex;
+    height: 300px;
+}
+
+.project1{
+    width: 33.333%;
+}
+
+.project2{
+    width: 33.333%;
+}
+
+.project3{
+    width: 33.333%;
+}
+
+.calculator, .portfolio, .currency, .netflix{
+    height: 190px;
+}
+
+.calculator{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+.portfolio{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.currency{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.netflix{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.calci{
+    margin-left: 170px;
+}
+
+.port{
+    margin-left: 140px;
+}
+
+.net{
+    margin-left: 170px;
+}
+
+.CC{
+    margin-left: 110px;
+}
+
+/* contact section */
+
+.contact{
+    height:500px; 
+}
+
+.contact-top{
+    text-align: center;
+    height: 150px;
+    font-size: 70px;
+}
+
+.contact-top span{
+    color: gold;
+}
+
+.contact-top h1{
+    margin-top: 20px;
+}
+
+.contact-link{
+    margin-left: 50px;
+    margin-right: 70px;
+    justify-content: space-between;
+    height: 160px;
+    display: flex;
+    margin-top: 14px;
+}
+
+.contact-1 ul{
+    list-style: none;
+}
+
+.contact-2 ul{
+    list-style: none;
+}
+
+.contact-3 ul{
+    list-style: none;
+}
+
+.contact-4 ul{
+    list-style: none;
+}
+
+.contact-1{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.contact-2{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.contact-3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.contact-4{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.contact-1 a, .contact-2 a, .contact-3 a, .contact-4 a{
+    color: grey;
+}
+
+.cont-mail{
+    margin-top: 20px;
+}
+
+.cont-num{
+    margin-top: 15px;
+}
